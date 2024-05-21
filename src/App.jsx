@@ -1,9 +1,11 @@
 // import { useState } from 'react'
 
+
 import './App.scss'
 import './index.scss'
 import { app } from './utils/firebase'
 import { Navigation } from './router/navigation/navigation'
+import { Home } from './router/home/home'
 
 export function App() {
   // console.clear()
@@ -13,7 +15,7 @@ export function App() {
     <>
 
       <Navigation />
-
+     <Home/>
     </>
   )
 }
