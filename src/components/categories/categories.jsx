@@ -1,12 +1,13 @@
 import { Category } from "../category/category"
-
+import './categories.scss'
 
 // export function Categories(props){ usando props
 export function Categories({categories}){ //Desestruturando categories
     // console.clear()
     // console.log(categories)
     return(
-        <div>
+        <div className="categories-container">
+
            {
             categories.map((category)=>{
                 return(

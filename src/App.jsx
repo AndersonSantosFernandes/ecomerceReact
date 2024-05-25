@@ -6,6 +6,10 @@ import './index.scss'
 import { app } from './utils/firebase'
 import { Navigation } from './router/navigation/navigation'
 import { Home } from './router/home/home'
+import { Auth } from './router/auth/auth'
+
+
+
 
 export function App() {
   // console.clear()
@@ -15,7 +19,8 @@ export function App() {
     <>
 
       <Navigation />
-     <Home/>
+     {/* <Home/> */}
+     <Auth/>
     </>
   )
 }
